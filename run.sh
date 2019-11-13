@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo pacman -S --needed docker
+sudo npm install docker
 sudo systemctl start docker
 
 cd dumper
